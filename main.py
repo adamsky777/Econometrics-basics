@@ -16,6 +16,7 @@ if __name__ == '__main__':
     print_hi('PyCharm')
     print("how are you doing?")
     print(myfunction(3, 4))
+    x = 3
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
