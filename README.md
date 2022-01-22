@@ -6,3 +6,4 @@ Contains the following tools:
 - Confidence interval finder
 - Residual finder
 - T-value solver
+- Correlation and Adjusted R-sqrd calculator
