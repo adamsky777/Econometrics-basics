@@ -1,3 +1,9 @@
+"""
+F-test for the whole model.
+
+Use this when you test the whole model.
+"""
+
 from termcolor import colored
 from scipy import stats as st
 n_value = float(input("Enter n "))
@@ -14,7 +20,7 @@ F = (f_top /  (f_bottom1 / f_bottom2))
 
 print(colored("F-value = ", "green"),colored(round(F, 3), "green"))
 
-#### Adjusted R. square calcuation
+#Adjusted R-square calcuation
 
 front = 1
 mid = (1 - r_sqrd)
@@ -27,7 +33,7 @@ print(colored("Adjusted R squared = ", "green"), colored(round(Adj_R_sqrd, 3), "
 
 
 
-#### Hypothesis test
+#Hypothesis test
 h0_test = input("Hypothesis test for the whole model F? \n Type  yes/no ")
 if h0_test == "yes":
     df1 = (k_value - 1)
