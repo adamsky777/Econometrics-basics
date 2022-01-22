@@ -4,3 +4,5 @@ Created these tools to help peers checking their pen and paper calculations for 
 Contains the following tools:
 - Student F-test for the whole model
 - Confidence interval finder
+- Residual finder
+- T-value solver
