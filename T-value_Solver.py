@@ -1,5 +1,6 @@
 """
 Stundent T test
+#TODO: add scope and description
 """
 
 from termcolor import colored
